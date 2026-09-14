@@ -139,6 +139,7 @@ h1 {
   border: 1px solid #dfe7f1;
   border-radius: 8px;
   padding: 18px;
+  min-width: 0;
 }
 
 .panel h2 {
@@ -166,6 +167,7 @@ h1 {
   display: grid;
   gap: 18px;
   align-content: start;
+  min-width: 0;
 }
 
 .form-grid {
@@ -297,6 +299,7 @@ tr.conflict td { background: #fdecea; }
   padding: 18px;
   display: grid;
   gap: 12px;
+  min-width: 0;
 }
 
 .container-card.warn { border-color: #e0a100; }
@@ -481,5 +484,5 @@ tr.conflict td { background: #fdecea; }
 
 @media (max-width: 520px) {
   .metrics { grid-template-columns: 1fr; }
-  .triple { grid-template-columns: 1fr 1fr; }
+  .triple { grid-template-columns: 1fr; }
 }
